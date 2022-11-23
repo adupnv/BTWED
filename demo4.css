@@ -1,0 +1,90 @@
+.container{
+    width: 1000;
+    height: 1000;
+    border: 2px solid;
+    background-color: white;
+}
+.flex-container-start {
+    display: flex;
+    margin: 10px;
+    justify-content: flex-start;
+    background-color: DodgerBlue;
+  }
+  
+  .flex-container-start > div {
+    background-color: #f1f1f1;
+    width: 40px;
+    margin: 20px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;}
+.flex-container-end {
+        display: flex;
+        margin: 10px;
+        justify-content: flex-end;
+        background-color: DodgerBlue;
+      }
+      
+.flex-container-end > div {
+        background-color: #f1f1f1;
+        width: 40px;
+        margin: 10px;
+        text-align: center;
+        line-height: 40px;}
+.flex-container-center {
+            display: flex;
+            height: 70px;
+            justify-content:  center;
+            background-color: DodgerBlue;
+          }
+          
+.flex-container-center > div {
+            background-color: #f1f1f1;
+            width: 40px;
+            margin: 10px;
+            text-align: center;
+            line-height: 40px;
+            font-size: 20px;}
+.flex-space-between {
+                display: flex;
+                margin: 10px;
+                justify-content: space-between;
+                background-color: DodgerBlue;
+              }
+.flex-space-between> div {
+                background-color: #f1f1f1;
+                width: 40px;
+                margin: 10px;
+                text-align: center;
+                line-height: 40px;
+                font-size: 20px;}
+.flex-container-space-around {
+            display: flex;
+            margin: 10px;
+            justify-content: space-around;
+            background-color: DodgerBlue;
+          }
+          
+.flex-container-space-around > div {
+            background-color:white;
+            width: 40px;
+            margin: 10px;
+            text-align: center;
+            line-height: 40px;
+            font-size: 20px;} 
+
+
+.flex-container-space-evenly {
+    display: flex;
+    border: 1px solid blue;
+    justify-content: space-evenly;
+    background-color: blue;
+    margin: 10px;
+}
+.flex-container-space-evenly{
+    border: 1px solid;
+    width: 20px;
+    padding: 1px;
+    margin: 10px;
+    background-color: #ffff;
+}
